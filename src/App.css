@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+.App {
+  display: flex;
+  width: 100%;
+}
+
+.First {
+  width: 40%;
+  overflow: hidden;
+  align-items: flex-start;
+  width: 40%;
+  overflow: hidden;
+}
+
+.logo {
+  width: 50%; 
+  height: auto;
+}
+ .card{
+  font-family: "Exo 2", sans-serif;
+  background-color:#112949 ;
+  border: 1px solid #000000; 
+  border-radius: 5px;
+  padding: 1rem;
+  color:white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  display: -webkit-box; 
+  -webkit-box-orient: vertical; 
+  -webkit-line-clamp: 3; 
+ }
+ .Second{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  gap: 10px; 
+  width: 55%; 
+  margin: 0 auto;
+  height: 80%;
+  font-size: 15px;
+ 
+ }
+ .grid-item {
+  background-color: lightblue;
+  border: 1px solid #ccc;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  font-size: 15px; 
+ }
+
+ .card h3{
+  color:#3CC3F2 ;
+  font-style: normal;
+  position: relative;
+  bottom: 1.4rem;
+  left:1rem;
+ }
+
+ .upper{
+  display: flex;
+  height: 20%;
+ }
+
+ /* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  .App {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .First {
+    width: 90%;
+    text-align: center;
+  }
+
+  .Second {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+  }
+
+  .grid-item {
+    height: auto;
+  }
+}
