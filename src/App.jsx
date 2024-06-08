@@ -1,6 +1,6 @@
 import logo from './assets/Logo.png' // import your logo
 import './App.css'
-import Card from './Card'
+import Card from './components/Card'
 import EmailAuthorization from './components/EmailAuthorization'
 
 function App() {
