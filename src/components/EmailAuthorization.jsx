@@ -52,7 +52,7 @@ function EmailForm() {
     <div>
       {error && <p style={{ color: 'red' }}>{error}</p>}
       {success && <p style={{ color: 'green' }}>{success}</p>}
-      <form onSubmit={handleSubmit}>
+      <form className='formid' onSubmit={handleSubmit}>
         <input 
           type="text"
           value={email}

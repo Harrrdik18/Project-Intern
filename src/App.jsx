@@ -10,7 +10,9 @@ function App() {
         <img className='logo' src={logo} alt='Logo' />
         <h2>Suite Of Business Support Services</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
-        <EmailAuthorization />
+        <div className='contact'>
+          <EmailAuthorization />
+        </div>
       </div>
       <div className='Second'>
       <Card className="grid-item" Topic={`Presentation Design`} Image={`Analytics`}/>
@@ -19,8 +21,11 @@ function App() {
       <Card className="grid-item" Topic={`Graphic Design`} Image={`Graphic`} />
       <Card className="grid-item" Topic={`Research & Analytics`}  Image={`Research`} />
       <Card className="grid-item" Topic={`Data Processing`} Image={`Data-processing`} />
-        
       </div>
+      <div className='contact-mobile'>
+          <EmailAuthorization />
+      </div>
+      
     </div>
   )
 }

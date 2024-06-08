@@ -3,6 +3,7 @@
   display: flex;
   width: 100%;
 }
+h2{}
 
 .First {
   width: 40%;
@@ -57,10 +58,17 @@
   bottom: 1.4rem;
   left:1rem;
  }
+ .formid button{
+  margin: 5px;
+
+ }
 
  .upper{
   display: flex;
   height: 20%;
+ }
+ .contact-mobile{
+  display: none;
  }
 
  /* Media query for smaller screens */
@@ -69,7 +77,19 @@
     flex-direction: column;
     align-items: center;
   }
+  .contact{
+    display: none;
+  }
 
+  .formid{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+  }
+  .contact-mobile{
+    display: flex;
+    flex-direction: column;
+   }
   .First {
     width: 90%;
     text-align: center;
