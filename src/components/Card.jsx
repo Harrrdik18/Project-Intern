@@ -6,8 +6,7 @@ function Card({Topic, Image}) {
       <div className='upper'>
       <img src={`src/assets/${Image}.png`}></img>
       <h3>{Topic}</h3>
-      </div>
-        
+      </div>     
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
     </div>
   )

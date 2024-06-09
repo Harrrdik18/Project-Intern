@@ -20,7 +20,7 @@ function App() {
       <Card className="grid-item" Topic={`Translation Services`} Image={`Translate`} />
       <Card className="grid-item" Topic={`Graphic Design`} Image={`Graphic`} />
       <Card className="grid-item" Topic={`Research & Analytics`}  Image={`Research`} />
-      <Card className="grid-item" Topic={`Data Processing`} Image={`Data-processing`} />
+      <Card className="grid-item" Topic={`Data Processing`} Image={`Data-processing`}  />
       </div>
       <div className='contact-mobile'>
           <EmailAuthorization />
